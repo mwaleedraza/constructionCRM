@@ -142,6 +142,33 @@ $app_list_strings = array(
         'SugarFavorites' => 'SuiteCRM Favorites',
 
     ),
+	'dev_type_dom' => array(
+        'Bricks' => 'Bricks',
+        'Cement' => 'Cement',
+        'Steel' => 'Steel',
+    ),
+	'area_unit_dom' => array(
+        'Marla' => 'Marla',
+        'Kanal' => 'Kanal',
+        'Sqr Feet' => 'Sqr Feet',
+    ),
+	'land_type_dom' => array(
+        'Corner' => 'Corner',
+        'Facing' => 'Facing',
+        'Normal' => 'Normal',
+    ),
+	 'area_unit_c_dom' => array(
+        'Marla' => 'Marla',
+        'Acre' => 'Acre',
+        'Kanaal' => 'Kanaal',
+    ),
+    'payment_method_dom' => array(
+        '' => '',
+        'Cash' => 'Cash',
+        'Check' => 'Check',
+        'Bank Transfer' => 'Bank Transfer',
+		),
+
 
     'checkbox_dom' => array(
         '' => '',
