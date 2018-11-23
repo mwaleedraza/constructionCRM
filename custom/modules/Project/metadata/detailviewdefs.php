@@ -97,12 +97,12 @@ array (
           ),
         ),
       ),
-      'useTabs' => false,
+      'useTabs' => true,
       'tabDefs' => 
       array (
         'LBL_PROJECT_INFORMATION' => 
         array (
-          'newTab' => false,
+          'newTab' => true,
           'panelDefault' => 'expanded',
         ),
       ),
@@ -133,7 +133,6 @@ array (
             'name' => 'estimated_end_date',
             'label' => 'LBL_DATE_END',
           ),
-          1 => 'override_business_hours',
         ),
         3 => 
         array (
@@ -151,43 +150,45 @@ array (
         array (
           0 => 
           array (
-            'name' => 'total_dev_cost_c',
-            'label' => 'LBL_TOTAL_DEV_COST_C',
+            'name' => 'total_procurement_cost_c',
+            'label' => 'LBL_TOTAL_PROCUREMENT_COST_C',
+          ),
+          1 => 
+          array (
+            'name' => 'total_procurement_paid_c',
+            'label' => 'LBL_TOTAL_PROCUREMENT_PAID_C',
           ),
         ),
         5 => 
         array (
           0 => 
           array (
-            'name' => 'total_dev_paid_c',
-            'label' => 'LBL_TOTAL_DEV_PAID_C',
+            'name' => 'total_procurement_due_c',
+            'label' => 'LBL_TOTAL_PROCUREMENT_DUE_C',
           ),
-          1 => 
-          array (
-            'name' => 'total_dev_due_c',
-            'label' => 'LBL_TOTAL_DEV_DUE_C',
-          ),
+          1 => '',
         ),
         6 => 
         array (
           0 => 
           array (
-            'name' => 'total_procurement_cost_c',
-            'label' => 'LBL_TOTAL_PROCUREMENT_COST_C',
+            'name' => 'total_dev_cost_c',
+            'label' => 'LBL_TOTAL_DEV_COST_C',
+          ),
+          1 => 
+          array (
+            'name' => 'total_dev_paid_c',
+            'label' => 'LBL_TOTAL_DEV_PAID_C',
           ),
         ),
         7 => 
         array (
           0 => 
           array (
-            'name' => 'total_procurement_paid_c',
-            'label' => 'LBL_TOTAL_PROCUREMENT_PAID_C',
+            'name' => 'total_dev_due_c',
+            'label' => 'LBL_TOTAL_DEV_DUE_C',
           ),
-          1 => 
-          array (
-            'name' => 'total_procurement_due_c',
-            'label' => 'LBL_TOTAL_PROCUREMENT_DUE_C',
-          ),
+          1 => '',
         ),
         8 => 
         array (
@@ -218,19 +219,20 @@ array (
             'name' => 'total_project_cost_c',
             'label' => 'LBL_TOTAL_PROJECT_COST_C',
           ),
+          1 => 
+          array (
+            'name' => 'total_project_paid_cost_c',
+            'label' => 'LBL_TOTAL_PROJECT_PAID_COST_C',
+          ),
         ),
         11 => 
         array (
           0 => 
           array (
-            'name' => 'total_project_paid_cost_c',
-            'label' => 'LBL_TOTAL_PROJECT_PAID_COST_C',
-          ),
-          1 => 
-          array (
             'name' => 'total_project_due_cost_c',
             'label' => 'LBL_TOTAL_PROJECT_DUE_COST_C',
           ),
+          1 => '',
         ),
       ),
     ),

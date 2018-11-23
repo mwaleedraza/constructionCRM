@@ -68,7 +68,6 @@ array (
         2 => 
         array (
           0 => 'estimated_end_date',
-          1 => 'override_business_hours',
         ),
         3 => 
         array (

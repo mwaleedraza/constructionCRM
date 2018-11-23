@@ -48,7 +48,6 @@ array (
         0 => 
         array (
           0 => 'name',
-          1 => 'assigned_user_name',
         ),
         1 => 
         array (
@@ -113,16 +112,65 @@ array (
             'comment' => '',
             'label' => 'LBL_AMOUNT_DUE_C',
           ),
-          1 => 
-          array (
-            'name' => 'vendor_c',
-            'comment' => '',
-            'label' => 'LBL_VENDOR_C',
-          ),
         ),
         6 => 
         array (
-          0 => '',
+          0 => 
+          array (
+            'name' => 'contacts_name_c',
+            'studio' => 'visible',
+            'label' => 'LBL_CONTACTS_NAME_C',
+          ),
+        ),
+        7 => 
+        array (
+          0 => 
+          array (
+            'name' => 'due_date_c',
+            'comment' => '',
+            'label' => 'LBL_DUE_DATE_C',
+          ),
+          1 => '',
+        ),
+        8 => 
+        array (
+          0 => 
+          array (
+            'name' => 'filename1',
+            'comment' => 'File name associated with the note (attachment)',
+            'label' => 'LBL_FILENAME_1',
+          ),
+          1 => 
+          array (
+            'name' => 'filename2',
+            'comment' => 'File name associated with the note (attachment)',
+            'label' => 'LBL_FILENAME_2',
+          ),
+        ),
+        9 => 
+        array (
+          0 => 
+          array (
+            'name' => 'filename3',
+            'comment' => 'File name associated with the note (attachment)',
+            'label' => 'LBL_FILENAME_3',
+          ),
+          1 => 
+          array (
+            'name' => 'filename4',
+            'comment' => 'File name associated with the note (attachment)',
+            'label' => 'LBL_FILENAME_4',
+          ),
+        ),
+        10 => 
+        array (
+          0 => 
+          array (
+            'name' => 'filename',
+            'comment' => 'File name associated with the note (attachment)',
+            'label' => 'LBL_FILENAME_5',
+          ),
+          1 => '',
         ),
       ),
     ),

@@ -88,4 +88,8 @@ $mod_strings = array (
   'LBL_DEV_TYPE'=>'Dev Type',
   'LBL_PROJECT_C'=>'Project',
    'LBL_PROJECT_NAME_C'=>'Project',
+   'LBL_CONTACTS_NAME_C1'=>'Receive From',
+   'LBL_CONTACTS_NAME_C2'=>'Receive Through',
+   'LBL_CONTACTS_NAME_C3'=>'Paid to',
+   
 );

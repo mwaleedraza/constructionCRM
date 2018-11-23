@@ -51,6 +51,7 @@ class ViewDisplaydeployresult extends SugarView
         $this->show_footer = true;
         $this->show_javascript = true;
         $this->view_print = false;
+		
     }
 
     /**

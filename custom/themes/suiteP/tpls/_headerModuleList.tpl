@@ -505,13 +505,7 @@
                         </form>
                     </div>
                 </li>
-                <li id="desktop_notifications" class="dropdown nav navbar-nav desktop_notifications">
-                    <button class="alertsButton btn dropdown-toggle suitepicon suitepicon-action-alerts" data-toggle="dropdown"
-                            aria-expanded="false">
-                        <span class="alert_count hidden">0</span>
-                    </button>
-                    <div id="alerts" class="dropdown-menu" role="menu">{$APP.LBL_EMAIL_ERROR_VIEW_RAW_SOURCE}</div>
-                </li>
+              
                 <li>
                     <form id="searchform" class="navbar-form searchform" name='UnifiedSearch' action='index.php'
                           onsubmit='return SUGAR.unifiedSearchAdvanced.checkUsaAdvanced()'>
@@ -651,8 +645,7 @@
                     </ul>
                 </li> -->
                 <li id="" class="dropdown nav navbar-nav navbar-search">
-                    <button id="searchbutton" class="dropdown-toggle btn btn-default searchbutton suitepicon suitepicon-action-search" data-toggle="dropdown" aria-expanded="true">
-                    </button>
+                  
                     <div class="dropdown-menu" role="menu" aria-labelledby="searchbutton">
                         <form id="searchformdropdown" class="searchformdropdown" name='UnifiedSearch' action='index.php'
                               onsubmit='return SUGAR.unifiedSearchAdvanced.checkUsaAdvanced()'>
@@ -686,13 +679,7 @@
                         </div>
                     </form>
                 </li>
-                <li id="desktop_notifications" class="dropdown nav navbar-nav desktop_notifications">
-                    <button class="alertsButton btn dropdown-toggle suitepicon suitepicon-action-alerts" data-toggle="dropdown"
-                            aria-expanded="false">
-                        <span class="alert_count hidden">0</span>
-                    </button>
-                    <div id="alerts" class="dropdown-menu" role="menu">{$APP.LBL_EMAIL_ERROR_VIEW_RAW_SOURCE}</div>
-                </li>
+            
                 <li id="globalLinks" class="dropdown nav navbar-nav globalLinks-desktop">
                     <button id="with-label" class="dropdown-toggle user-menu-button" title="{$CURRENT_USER}"data-toggle="dropdown" aria-expanded="true">
                         <span class="suitepicon suitepicon-action-current-user"></span>
@@ -700,11 +687,7 @@
                         <span class="suitepicon suitepicon-action-caret"></span>
                     </button>
                     <ul class="dropdown-menu user-dropdown user-menu" role="menu" aria-labelledby="with-label">
-                        <li role="presentation">
-                            <a href='index.php?module=Users&action=EditView&record={$CURRENT_USER_ID}'>
-                                {$APP.LBL_PROFILE}
-                            </a>
-                        </li>
+                     
                         {foreach from=$GCLS item=GCL name=gcl key=gcl_key}
                             <li role="presentation">
                                 <a id="{$gcl_key}_link"

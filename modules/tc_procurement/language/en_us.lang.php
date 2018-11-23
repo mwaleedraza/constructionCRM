@@ -84,5 +84,7 @@ $mod_strings = array (
   'LBL_VENDOR_C' => 'Vendor',
   'LBL_PROJECT_ID_C' => 'Project Name',
   'LBL_PROJECT_NAME_C' => 'Project Name',
+  'LBL_CONTACTS_NAME_C' => 'Seller',
+  'LBL_DUE_DATE_C'=>'Due Date',
 
 );

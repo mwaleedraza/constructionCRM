@@ -57,11 +57,6 @@ array (
       array (
         0 => 
         array (
-          0 => 'name',
-          1 => 'assigned_user_name',
-        ),
-        1 => 
-        array (
           0 => 
           array (
             'name' => 'supplier',
@@ -73,6 +68,67 @@ array (
             'name' => 'project_name_c',
             'label' => 'LBL_PROJECT_NAME_C',
           ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'contacts_name_c1',
+            'label' => 'LBL_CONTACTS_NAME_C1',
+          ),
+          1 => 
+          array (
+            'name' => 'contacts_name_c2',
+            'label' => 'LBL_CONTACTS_NAME_C2',
+          ),
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'contacts_name_c3',
+            'label' => 'LBL_CONTACTS_NAME_C3',
+          ),
+        ),
+        3 => 
+        array (
+          0 => 
+          array (
+            'name' => 'filename1',
+            'comment' => 'File name associated with the note (attachment)',
+            'label' => 'LBL_FILENAME_1',
+          ),
+          1 => 
+          array (
+            'name' => 'filename2',
+            'comment' => 'File name associated with the note (attachment)',
+            'label' => 'LBL_FILENAME_2',
+          ),
+        ),
+        4 => 
+        array (
+          0 => 
+          array (
+            'name' => 'filename3',
+            'comment' => 'File name associated with the note (attachment)',
+            'label' => 'LBL_FILENAME_3',
+          ),
+          1 => 
+          array (
+            'name' => 'filename4',
+            'comment' => 'File name associated with the note (attachment)',
+            'label' => 'LBL_FILENAME_4',
+          ),
+        ),
+        5 => 
+        array (
+          0 => 
+          array (
+            'name' => 'filename',
+            'comment' => 'File name associated with the note (attachment)',
+            'label' => 'LBL_FILENAME_5',
+          ),
+          1 => '',
         ),
       ),
       'lbl_editview_panel5' => 

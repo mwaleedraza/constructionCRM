@@ -6,13 +6,17 @@ array (
   array (
     'templateMeta' => 
     array (
-	      'includes' => 
+      'form' => 
+      array (
+        'enctype' => 'multipart/form-data',
+      ),
+      'includes' => 
       array (
         0 => 
         array (
           'file' => 'custom/modules/tc_sales/validation.js',
         ),
-		),
+      ),
       'maxColumns' => '2',
       'widths' => 
       array (
@@ -45,7 +49,6 @@ array (
         0 => 
         array (
           0 => 'name',
-          1 => 'assigned_user_name',
         ),
         1 => 
         array (
@@ -103,7 +106,74 @@ array (
         ),
         5 => 
         array (
+          0 => 
+          array (
+            'name' => 'contacts_name_c1',
+            'label' => 'LBL_CONTACTS_NAME_C1',
+          ),
+          1 => 
+          array (
+            'name' => 'contacts_name_c2',
+            'label' => 'LBL_CONTACTS_NAME_C2',
+          ),
+        ),
+        6 => 
+        array (
+          0 => 
+          array (
+            'name' => 'contacts_name_c3',
+            'label' => 'LBL_CONTACTS_NAME_C3',
+          ),
+          1 => 
+          array (
+            'name' => 'commission_fee',
+            'comment' => '',
+            'label' => 'LBL_COMMISSION_FEE',
+          ),
+        ),
+        7 => 
+        array (
           0 => 'description',
+        ),
+        8 => 
+        array (
+          0 => 
+          array (
+            'name' => 'filename1',
+            'comment' => 'File name associated with the note (attachment)',
+            'label' => 'LBL_FILENAME_1',
+          ),
+          1 => 
+          array (
+            'name' => 'filename2',
+            'comment' => 'File name associated with the note (attachment)',
+            'label' => 'LBL_FILENAME_2',
+          ),
+        ),
+        9 => 
+        array (
+          0 => 
+          array (
+            'name' => 'filename3',
+            'comment' => 'File name associated with the note (attachment)',
+            'label' => 'LBL_FILENAME_3',
+          ),
+          1 => 
+          array (
+            'name' => 'filename4',
+            'comment' => 'File name associated with the note (attachment)',
+            'label' => 'LBL_FILENAME_4',
+          ),
+        ),
+        10 => 
+        array (
+          0 => 
+          array (
+            'name' => 'filename',
+            'comment' => 'File name associated with the note (attachment)',
+            'label' => 'LBL_FILENAME_5',
+          ),
+          1 => '',
         ),
       ),
     ),
