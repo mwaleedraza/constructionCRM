@@ -107,19 +107,6 @@ array (
         array (
           0 => 
           array (
-            'name' => 'contacts_name_c1',
-            'label' => 'LBL_CONTACTS_NAME_C1',
-          ),
-          1 => 
-          array (
-            'name' => 'contacts_name_c2',
-            'label' => 'LBL_CONTACTS_NAME_C2',
-          ),
-        ),
-        6 => 
-        array (
-          0 => 
-          array (
             'name' => 'contacts_name_c3',
             'label' => 'LBL_CONTACTS_NAME_C3',
           ),
@@ -130,11 +117,53 @@ array (
             'label' => 'LBL_COMMISSION_FEE',
           ),
         ),
-        7 => 
+        6 => 
         array (
           0 => 'description',
         ),
+        7 => 
+        array (
+          0 => 
+          array (
+            'name' => 'contacts_name_c1',
+            'label' => 'LBL_CONTACTS_NAME_C1',
+          ),
+          1 => 
+          array (
+            'name' => 'amount_c2',
+            'comment' => '',
+            'label' => 'LBL_AMOUNT_C2',
+          ),
+        ),
         8 => 
+        array (
+          0 => 
+          array (
+            'name' => 'contacts_name_c2',
+            'label' => 'LBL_CONTACTS_NAME_C2',
+          ),
+          1 => 
+          array (
+            'name' => 'amount_c1',
+            'comment' => '',
+            'label' => 'LBL_AMOUNT_C1',
+          ),
+        ),
+        9 => 
+        array (
+          0 => 
+          array (
+            'name' => 'contacts_name_c4',
+            'label' => 'LBL_CONTACTS_NAME_C4',
+          ),
+          1 => 
+          array (
+            'name' => 'amount_c3',
+            'comment' => '',
+            'label' => 'LBL_AMOUNT_C3',
+          ),
+        ),
+        10 => 
         array (
           0 => 
           array (
@@ -149,7 +178,7 @@ array (
             'label' => 'LBL_FILENAME_2',
           ),
         ),
-        9 => 
+        11 => 
         array (
           0 => 
           array (
@@ -164,7 +193,7 @@ array (
             'label' => 'LBL_FILENAME_4',
           ),
         ),
-        10 => 
+        12 => 
         array (
           0 => 
           array (

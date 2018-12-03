@@ -1,6 +1,6 @@
 <?php
-$dictionary['Project']['fields']['tc_procurement_c'] = array(
-    'name' => 'tc_procurement_c',
+$dictionary['Project']['fields']['tc_procurement'] = array(
+    'name' => 'tc_procurement',
     'type' => 'link',
     'relationship' => 'rel_project_tc_procurement',
     //'module'        => 'Leads',

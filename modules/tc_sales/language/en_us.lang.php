@@ -81,9 +81,13 @@ $mod_strings = array (
   'LBL_LAND_PRICE_RECEIVED'=>'Land Price Received',
   'LBL_LAND_PRICE_DUE'=>'Land Price Due',
   'LBL_PROJECT_NAME_C'=>'Project',
-  'LBL_CONTACTS_NAME_C1'=>'Received From',
-  'LBL_CONTACTS_NAME_C2'=>'Received Throung',
+  'LBL_CONTACTS_NAME_C1'=>'Sale From',
+  'LBL_CONTACTS_NAME_C2'=>'Sale Through',
+   'LBL_CONTACTS_NAME_C4'=>'Sale To',
   'LBL_CONTACTS_NAME_C3'=>'Agent',
   'LBL_COMMISSION_FEE'=>'Commission Fee',
+  'LBL_AMOUNT_C1'=>'Amount',
+  'LBL_AMOUNT_C2'=>'Amount',
+  'LBL_AMOUNT_C3'=>'Amount',
  
 );

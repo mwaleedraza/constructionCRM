@@ -153,9 +153,10 @@ $app_list_strings = array(
         'Sqr Feet' => 'Sqr Feet',
     ),
 	'land_type_dom' => array(
+        'Residecial' => 'Residecial',
+        'Apartment facing park ' => 'Apartment facing park ',
         'Corner' => 'Corner',
-        'Facing' => 'Facing',
-        'Normal' => 'Normal',
+		'Main Road'=>'Main Road',
     ),
 	 'area_unit_c_dom' => array(
         'Marla' => 'Marla',
@@ -167,6 +168,7 @@ $app_list_strings = array(
         'Cash' => 'Cash',
         'Check' => 'Check',
         'Bank Transfer' => 'Bank Transfer',
+		'Pay Order' => 'Pay Order',
 		),
 
 

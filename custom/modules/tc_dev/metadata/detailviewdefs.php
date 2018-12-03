@@ -57,6 +57,11 @@ array (
       array (
         0 => 
         array (
+          0 => 'name',
+          1 => '',
+        ),
+        1 => 
+        array (
           0 => 
           array (
             'name' => 'supplier',
@@ -69,7 +74,15 @@ array (
             'label' => 'LBL_PROJECT_NAME_C',
           ),
         ),
-        1 => 
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'contacts_name_c4',
+            'label' => 'LBL_CONTACTS_NAME_C4',
+          ),
+        ),
+        3 => 
         array (
           0 => 
           array (
@@ -78,19 +91,40 @@ array (
           ),
           1 => 
           array (
+            'name' => 'amount_c3',
+            'comment' => '',
+            'label' => 'LBL_AMOUNT_C3',
+          ),
+        ),
+        4 => 
+        array (
+          0 => 
+          array (
             'name' => 'contacts_name_c2',
             'label' => 'LBL_CONTACTS_NAME_C2',
           ),
+          1 => 
+          array (
+            'name' => 'amount_c1',
+            'comment' => '',
+            'label' => 'LBL_AMOUNT_C1',
+          ),
         ),
-        2 => 
+        5 => 
         array (
           0 => 
           array (
             'name' => 'contacts_name_c3',
             'label' => 'LBL_CONTACTS_NAME_C3',
           ),
+          1 => 
+          array (
+            'name' => 'amount_c2',
+            'comment' => '',
+            'label' => 'LBL_AMOUNT_C2',
+          ),
         ),
-        3 => 
+        6 => 
         array (
           0 => 
           array (
@@ -105,7 +139,7 @@ array (
             'label' => 'LBL_FILENAME_2',
           ),
         ),
-        4 => 
+        7 => 
         array (
           0 => 
           array (
@@ -120,7 +154,7 @@ array (
             'label' => 'LBL_FILENAME_4',
           ),
         ),
-        5 => 
+        8 => 
         array (
           0 => 
           array (

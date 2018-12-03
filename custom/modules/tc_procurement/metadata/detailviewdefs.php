@@ -51,13 +51,13 @@ array (
         ),
         1 => 
         array (
-          0 => 'description',
-          1 => 
+          0 => 
           array (
-            'name' => 'project_name_c',
+            'name' => 'Project_name',
             'studio' => 'visible',
-            'label' => 'LBL_PROJECT_NAME_C',
+            'label' => 'LBL_PROJECT_NAME',
           ),
+          1 => 'description',
         ),
         2 => 
         array (
@@ -117,6 +117,11 @@ array (
         array (
           0 => 
           array (
+            'name' => 'contacts_name_c1',
+            'label' => 'LBL_CONTACTS_NAME_C1',
+          ),
+          1 => 
+          array (
             'name' => 'contacts_name_c',
             'studio' => 'visible',
             'label' => 'LBL_CONTACTS_NAME_C',
@@ -136,6 +141,48 @@ array (
         array (
           0 => 
           array (
+            'name' => 'contacts_name_c2',
+            'label' => 'LBL_CONTACTS_NAME_C2',
+          ),
+          1 => 
+          array (
+            'name' => 'amount_c3',
+            'comment' => '',
+            'label' => 'LBL_AMOUNT_C3',
+          ),
+        ),
+        9 => 
+        array (
+          0 => 
+          array (
+            'name' => 'contacts_name_c4',
+            'label' => 'LBL_CONTACTS_NAME_C4',
+          ),
+          1 => 
+          array (
+            'name' => 'amount_c1',
+            'comment' => '',
+            'label' => 'LBL_AMOUNT_C1',
+          ),
+        ),
+        10 => 
+        array (
+          0 => 
+          array (
+            'name' => 'contacts_name_c3',
+            'label' => 'LBL_CONTACTS_NAME_C3',
+          ),
+          1 => 
+          array (
+            'name' => 'amount_c2',
+            'comment' => '',
+            'label' => 'LBL_AMOUNT_C2',
+          ),
+        ),
+        11 => 
+        array (
+          0 => 
+          array (
             'name' => 'filename1',
             'comment' => 'File name associated with the note (attachment)',
             'label' => 'LBL_FILENAME_1',
@@ -147,7 +194,7 @@ array (
             'label' => 'LBL_FILENAME_2',
           ),
         ),
-        9 => 
+        12 => 
         array (
           0 => 
           array (
@@ -162,7 +209,7 @@ array (
             'label' => 'LBL_FILENAME_4',
           ),
         ),
-        10 => 
+        13 => 
         array (
           0 => 
           array (
