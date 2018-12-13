@@ -269,7 +269,7 @@ $layout_defs['Project'] = array(
                         ),
                 ),
         ),
-        'project_resources' => array(
+         'project_resources' => array(
             'order' => 101,
             'module' => 'Project',
             'subpanel_name' => 'Project',
@@ -287,7 +287,7 @@ $layout_defs['Project'] = array(
                         array(
                             'widget_class' => 'SubPanelTopSelectContactsButton', 'mode' => 'MultiSelect',
                         ),
-                ),
+                ), 
             'collection_list' => array(
                 'users' => array(
                     'module' => 'Users',
@@ -300,7 +300,7 @@ $layout_defs['Project'] = array(
                     'get_subpanel_data' => 'project_contacts_1',
                 ),
             )
-        ),
+        ), 
         'securitygroups' => array(
             'top_buttons' => array(array('widget_class' => 'SubPanelTopSelectButton', 'popup_module' => 'SecurityGroups', 'mode' => 'MultiSelect'),),
             'order' => 900,

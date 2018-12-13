@@ -49,7 +49,7 @@ $subpanel_layout = array(
         array('widget_class' => 'SubPanelTopSelectButton', 'popup_module' => $module_name),
     ),
 
-    'where' => '',
+    'where' => 'is_parent','true',
 
     'list_fields' => array(
         'name' => array(

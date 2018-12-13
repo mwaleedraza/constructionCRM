@@ -1,5 +1,5 @@
 <?php
-// created: 2018-10-26 10:23:34
+// created: 2018-12-12 14:20:07
 $subpanel_layout['list_fields'] = array (
   'name' => 
   array (
@@ -26,13 +26,6 @@ $subpanel_layout['list_fields'] = array (
     'type' => 'varchar',
     'default' => true,
     'vname' => 'LBL_UNIT_PRICE',
-    'width' => '10%',
-  ),
-  'total_price' => 
-  array (
-    'type' => 'varchar',
-    'default' => true,
-    'vname' => 'LBL_TOTAL_PRICE',
     'width' => '10%',
   ),
   'total_amount' => 

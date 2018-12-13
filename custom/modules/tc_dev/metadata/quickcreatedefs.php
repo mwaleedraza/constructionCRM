@@ -34,11 +34,6 @@ array (
       'useTabs' => false,
       'tabDefs' => 
       array (
-        'LBL_QUICKCREATE_PANEL1' => 
-        array (
-          'newTab' => false,
-          'panelDefault' => 'expanded',
-        ),
         'DEFAULT' => 
         array (
           'newTab' => false,
@@ -48,14 +43,6 @@ array (
     ),
     'panels' => 
     array (
-      'lbl_quickcreate_panel1' => 
-      array (
-        0 => 
-        array (
-          0 => '',
-          1 => '',
-        ),
-      ),
       'default' => 
       array (
         0 => 
@@ -122,6 +109,15 @@ array (
             'comment' => '',
             'label' => 'LBL_TOTAL_AMOUNT_PAYBLE',
           ),
+        ),
+        5 => 
+        array (
+          0 => 
+          array (
+            'name' => 'contacts_name_c3',
+            'label' => 'LBL_CONTACTS_NAME_C3',
+          ),
+          1 => '',
         ),
       ),
     ),

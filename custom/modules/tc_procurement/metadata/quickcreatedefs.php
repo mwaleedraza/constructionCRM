@@ -4,12 +4,16 @@ $viewdefs [$module_name] =
 array (
   'QuickCreate' => 
   array (
-    'templateMeta' =>
-      array ('includes' => array (
-        0 => array (
+    'templateMeta' => 
+    array (
+      'includes' => 
+      array (
+        0 => 
+        array (
           'file' => 'custom/modules/tc_procurement/tc_procurement_validations.js',
         ),
-        1 => array (
+        1 => 
+        array (
           'file' => 'custom/modules/tc_procurement/onsave.js',
         ),
       ),
@@ -105,6 +109,15 @@ array (
             'comment' => '',
             'label' => 'LBL_VENDOR_C',
           ),
+        ),
+        5 => 
+        array (
+          0 => 
+          array (
+            'name' => 'contacts_name_c3',
+            'label' => 'LBL_CONTACTS_NAME_C3',
+          ),
+          1 => '',
         ),
       ),
     ),

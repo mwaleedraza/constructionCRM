@@ -10,5 +10,6 @@ $mod_strings = array (
 'LBL_FILE_MIME_TYPE_3'=>'File mime 3',
 'LBL_FILE_MIME_TYPE_4'=>'File mime 4',
 'LBL_FILE_MIME_TYPE_5'=>'File mime 5',
+'LBL_TC_INSTALLMENT_SUBPANEL_C'=>'Installment',
 
 );

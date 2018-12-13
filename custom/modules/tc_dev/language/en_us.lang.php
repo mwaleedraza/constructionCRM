@@ -1,5 +1,5 @@
 <?php
-// created: 2018-11-23 12:05:05
+// created: 2018-12-12 15:59:04
 $mod_strings = array (
   'LBL_EDITVIEW_PANEL1' => 'Bricks',
   'LBL_EDITVIEW_PANEL2' => 'Cement',
@@ -13,4 +13,5 @@ $mod_strings = array (
   'LBL_LIST_FORM_TITLE' => 'Development List',
   'LBL_SEARCH_FORM_TITLE' => 'Search Development',
   'LBL_HOMEPAGE_TITLE' => 'My Development',
+  'LBL_TC_INSTALLMENT_SUBPANEL_C' => 'Installment',
 );

@@ -6,16 +6,15 @@ array (
   array (
     'templateMeta' => 
     array (
-		'includes' => 
+      'includes' => 
       array (
         0 => 
         array (
           'file' => 'custom/modules/tc_sales/validation.js',
         ),
-		 1 => 
+        1 => 
         array (
-		'file' => 'custom/modules/tc_sales/onsave.js',
-    
+          'file' => 'custom/modules/tc_sales/onsave.js',
         ),
       ),
       'maxColumns' => '2',
@@ -95,6 +94,15 @@ array (
             'comment' => '',
             'label' => 'LBL_LAND_PRICE_DUE',
           ),
+        ),
+        4 => 
+        array (
+          0 => 
+          array (
+            'name' => 'contacts_name_c4',
+            'label' => 'LBL_CONTACTS_NAME_C4',
+          ),
+          1 => '',
         ),
       ),
     ),

@@ -12,6 +12,7 @@ $(function()
         }
         else
         {
+			
             //Values from 'Procurement QuickCreate'
             total_amount = $("input[name='total_amount_c']").val().trim();
             amount_paid = $("input[name='amount_paid_c']").val().trim();

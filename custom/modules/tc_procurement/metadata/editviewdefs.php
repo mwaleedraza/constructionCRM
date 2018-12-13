@@ -52,62 +52,62 @@ array (
         ),
         1 => 
         array (
-          0 => 
-          array (
-            'name' => 'Project_name',
-            'studio' => 'visible',
-            'label' => 'LBL_PROJECT_NAME',
-          ),
-          1 => 'description',
+          0 => 'description',
         ),
         2 => 
         array (
           0 => 
           array (
-            'name' => 'total_area_c',
-            'label' => 'LBL_TOTAL_AREA_C',
-            'comment' => '',
+            'name' => 'project_name_c',
+            'studio' => 'visible',
+            'label' => 'LBL_PROJECT_NAME_C',
           ),
           1 => 
           array (
-            'name' => 'area_unit_c',
-            'comment' => 'Area Unit',
-            'label' => 'LBL_AREA_UNIT_C',
+            'name' => 'total_area_c',
+            'label' => 'LBL_TOTAL_AREA_C',
+            'comment' => '',
           ),
         ),
         3 => 
         array (
           0 => 
           array (
-            'name' => 'price_per_unit_c',
-            'comment' => '',
-            'label' => 'LBL_PRICE_PER_UNIT_C',
+            'name' => 'area_unit_c',
+            'comment' => 'Area Unit',
+            'label' => 'LBL_AREA_UNIT_C',
           ),
           1 => 
           array (
-            'name' => 'total_amount_c',
+            'name' => 'price_per_unit_c',
             'comment' => '',
-            'label' => 'LBL_TOTAL_AMOUNT_C',
+            'label' => 'LBL_PRICE_PER_UNIT_C',
           ),
         ),
         4 => 
         array (
           0 => 
           array (
-            'name' => 'amount_paid_c',
+            'name' => 'total_amount_c',
             'comment' => '',
-            'label' => 'LBL_AMOUNT_PAID_C',
+            'label' => 'LBL_TOTAL_AMOUNT_C',
           ),
           1 => 
           array (
-            'name' => 'payment_method_c',
-            'comment' => 'Area Unit',
-            'label' => 'LBL_PAYMENT_METHOD_C',
+            'name' => 'amount_paid_c',
+            'comment' => '',
+            'label' => 'LBL_AMOUNT_PAID_C',
           ),
         ),
         5 => 
         array (
           0 => 
+          array (
+            'name' => 'payment_method_c',
+            'comment' => 'Area Unit',
+            'label' => 'LBL_PAYMENT_METHOD_C',
+          ),
+          1 => 
           array (
             'name' => 'amount_due_c',
             'comment' => '',
@@ -121,22 +121,21 @@ array (
             'name' => 'contacts_name_c1',
             'label' => 'LBL_CONTACTS_NAME_C1',
           ),
-          1 => 
-          array (
-            'name' => 'contacts_name_c',
-            'studio' => 'visible',
-            'label' => 'LBL_CONTACTS_NAME_C',
-          ),
         ),
         7 => 
         array (
           0 => 
           array (
+            'name' => 'contacts_name_c',
+            'studio' => 'visible',
+            'label' => 'LBL_CONTACTS_NAME_C',
+          ),
+          1 => 
+          array (
             'name' => 'due_date_c',
             'comment' => '',
             'label' => 'LBL_DUE_DATE_C',
           ),
-          1 => '',
         ),
         8 => 
         array (
@@ -218,7 +217,6 @@ array (
             'comment' => 'File name associated with the note (attachment)',
             'label' => 'LBL_FILENAME_5',
           ),
-          1 => '',
         ),
       ),
     ),

@@ -82,8 +82,8 @@ $mod_strings = array (
   'LBL_AMOUNT_DUE_C' => 'Amount Due',
   'LBL_PAYMENT_METHOD_C' => 'Payment Method',
   'LBL_VENDOR_C' => 'Vendor',
-  'LBL_PROJECT_ID' => 'Project Name',
-  'LBL_PROJECT_NAME' => 'Project Name',
+  
+  'LBL_PROJECT_NAME_C' => 'Project Name',
   'LBL_CONTACTS_NAME_C' => 'Seller',
   'LBL_DUE_DATE_C'=>'Due Date',
   'LBL_CONTACTS_NAME_C1'=>'Agent',
@@ -93,6 +93,7 @@ $mod_strings = array (
   'LBL_AMOUNT_C1'=>'Amount',
   'LBL_AMOUNT_C2'=>'Amount',
   'LBL_AMOUNT_C3'=>'Amount',
+  
 	
 
 );
