@@ -40,12 +40,12 @@ array (
 		{sugar_getscript file="cache/include/javascript/sugar_grp_project.js"}
 		<script>toggle_portal_flag();function toggle_portal_flag()  {ldelim} {$TOGGLE_JS} {rdelim} 
 		function formSubmitCheck(){ldelim}if(check_form(\'EditView\')){ldelim}document.EditView.submit();{rdelim}{rdelim}</script>',
-      'useTabs' => false,
+      'useTabs' => true,
       'tabDefs' => 
       array (
         'LBL_PROJECT_INFORMATION' => 
         array (
-          'newTab' => false,
+          'newTab' => true,
           'panelDefault' => 'expanded',
         ),
       ),

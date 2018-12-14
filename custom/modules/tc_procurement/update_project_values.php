@@ -5,7 +5,7 @@ class update_project_value{
 	public function update_method($bean, $event, $arguments){
 		// $GLOBALS['log']->fatal("Before Save logic hook :".$bean->name);
 		
-	
+		
 		$project_id = $bean->project_id_c;
 		$projectBean = BeanFactory::getBean('Project', $project_id);		  
 		if (!isset($bean->fetched_row['id'])) { //New record

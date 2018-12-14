@@ -105,6 +105,26 @@ array (
           'newTab' => true,
           'panelDefault' => 'expanded',
         ),
+        'LBL_DETAILVIEW_PANEL1' => 
+        array (
+          'newTab' => true,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_DETAILVIEW_PANEL2' => 
+        array (
+          'newTab' => true,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_DETAILVIEW_PANEL3' => 
+        array (
+          'newTab' => true,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_DETAILVIEW_PANEL4' => 
+        array (
+          'newTab' => true,
+          'panelDefault' => 'expanded',
+        ),
       ),
       'syncDetailEditViews' => true,
     ),
@@ -146,7 +166,10 @@ array (
             'name' => 'am_projecttemplates_project_1_name',
           ),
         ),
-        4 => 
+      ),
+      'lbl_detailview_panel1' => 
+      array (
+        0 => 
         array (
           0 => 
           array (
@@ -159,7 +182,7 @@ array (
             'label' => 'LBL_TOTAL_PROCUREMENT_PAID_C',
           ),
         ),
-        5 => 
+        1 => 
         array (
           0 => 
           array (
@@ -168,7 +191,10 @@ array (
           ),
           1 => '',
         ),
-        6 => 
+      ),
+      'lbl_detailview_panel2' => 
+      array (
+        0 => 
         array (
           0 => 
           array (
@@ -181,7 +207,7 @@ array (
             'label' => 'LBL_TOTAL_DEV_PAID_C',
           ),
         ),
-        7 => 
+        1 => 
         array (
           0 => 
           array (
@@ -190,7 +216,10 @@ array (
           ),
           1 => '',
         ),
-        8 => 
+      ),
+      'lbl_detailview_panel3' => 
+      array (
+        0 => 
         array (
           0 => 
           array (
@@ -203,7 +232,7 @@ array (
             'label' => 'LBL_TOTAL_SALES_AMOUNT_RECEIVED_C',
           ),
         ),
-        9 => 
+        1 => 
         array (
           0 => 
           array (
@@ -212,7 +241,10 @@ array (
           ),
           1 => '',
         ),
-        10 => 
+      ),
+      'lbl_detailview_panel4' => 
+      array (
+        0 => 
         array (
           0 => 
           array (
@@ -225,7 +257,7 @@ array (
             'label' => 'LBL_TOTAL_PROJECT_PAID_COST_C',
           ),
         ),
-        11 => 
+        1 => 
         array (
           0 => 
           array (
