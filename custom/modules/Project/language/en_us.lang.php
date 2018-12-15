@@ -11,4 +11,8 @@ $mod_strings = array (
   'LBL_DETAILVIEW_PANEL2' => 'Developments',
   'LBL_DETAILVIEW_PANEL3' => 'Sales',
   'LBL_DETAILVIEW_PANEL4' => 'Total Project Cost',
+  'LBL_TOTAL_PROCUREMENT_DUE_C' => 'Total Procurement Cost',
+  'LBL_TOTAL_DEV_PAID_C' => 'Total Development Paid',
+
+
 );
