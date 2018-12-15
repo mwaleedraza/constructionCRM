@@ -22,8 +22,8 @@ array (
       'form' => 
       array (
         'hidden' => '<input type="hidden" name="is_template" value="{$is_template}" />',
-        'headerTpl' => 'modules/Project/tpls/header.tpl',
-        'footerTpl' => 'modules/Project/tpls/footer.tpl',
+        // 'headerTpl' => 'modules/Project/tpls/header.tpl',
+        // 'footerTpl' => 'modules/Project/tpls/footer.tpl',
         'buttons' => 
         array (
           0 => 
