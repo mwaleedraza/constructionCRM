@@ -1,4 +1,3 @@
-<link rel="stylesheet" type="text/css" href="custom/modules/Home/tpls/css/font-awesome.css">
 <link rel="stylesheet" type="text/css" href="custom/modules/Home/tpls/css/style.css">
 <div class="col-md-9">
           <h1>Companies</h1>

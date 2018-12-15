@@ -158,7 +158,7 @@
             {if $USE_GROUP_TABS}
                 <ul class="nav navbar-nav">
                     <li class="navbar-brand-container">
-                            <a class="navbar-brand with-home-icon suitepicon suitepicon-action-home" href="index.php?module=Home&action=index"></a>
+                            <a class="navbar-brand with-home-icon suitepicon suitepicon-action-home" href="index.php?module=Home&action=home"></a>
                     </li>
                     {assign var="groupSelected" value=false}
                     {foreach from=$moduleTopMenu item=module key=name name=moduleList}
@@ -321,7 +321,7 @@
 
                 <ul class="nav navbar-nav navbar-horizontal-fluid">
                     <li class="navbar-brand-container">
-                        <a class="navbar-brand with-home-icon" href="index.php?module=Home&action=index">
+                        <a class="navbar-brand with-home-icon" href="index.php?module=Home&action=home">
                             <span class="suitepicon suitepicon-action-home"></span>
                         </a>
                     </li>
