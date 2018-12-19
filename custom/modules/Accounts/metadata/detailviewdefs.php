@@ -28,13 +28,13 @@ array (
             ),
           ),
           0 => 'EDIT',
-          1 => 'DUPLICATE',
+         // 1 => 'DUPLICATE',
           2 => 'DELETE',
-          3 => 'FIND_DUPLICATES',
-          'AOS_GENLET' => 
+         // 3 => 'FIND_DUPLICATES',
+         /*  'AOS_GENLET' => 
           array (
             'customCode' => '<input type="button" class="button" onClick="showPopup();" value="{$APP.LBL_PRINT_AS_PDF}">',
-          ),
+          ), */
         ),
       ),
       'maxColumns' => '2',

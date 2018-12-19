@@ -28,10 +28,10 @@ array (
             ),
           ),
           0 => 'EDIT',
-          1 => 'DUPLICATE',
+        //  1 => 'DUPLICATE',
           2 => 'DELETE',
-          3 => 'FIND_DUPLICATES',
-          4 => 
+        //  3 => 'FIND_DUPLICATES',
+        /*   4 => 
           array (
             'customCode' => '<input type="submit" class="button" title="{$APP.LBL_MANAGE_SUBSCRIPTIONS}" onclick="this.form.return_module.value=\'Contacts\'; this.form.return_action.value=\'DetailView\'; this.form.return_id.value=\'{$fields.id.value}\'; this.form.action.value=\'Subscriptions\'; this.form.module.value=\'Campaigns\'; this.form.module_tab.value=\'Contacts\';" name="Manage Subscriptions" value="{$APP.LBL_MANAGE_SUBSCRIPTIONS}"/>',
             'sugar_html' => 
@@ -47,11 +47,11 @@ array (
                 'name' => 'Manage Subscriptions',
               ),
             ),
-          ),
-          'AOS_GENLET' => 
+          ), */
+        /*   'AOS_GENLET' => 
           array (
             'customCode' => '<input type="button" class="button" onClick="showPopup();" value="{$APP.LBL_PRINT_AS_PDF}">',
-          ),
+          ), */
           'AOP_CREATE' => 
           array (
             'customCode' => '{if !$fields.joomla_account_id.value && $AOP_PORTAL_ENABLED}<input type="submit" class="button" onClick="this.form.action.value=\'createPortalUser\';" value="{$MOD.LBL_CREATE_PORTAL_USER}"> {/if}',

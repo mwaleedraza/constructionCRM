@@ -40,6 +40,10 @@ array (
         array (
           'file' => 'custom/modules/tc_procurement/tc_procurement_validations.js',
         ),
+        1 => 
+        array (
+          'file' => 'custom/modules/tc_procurement/autocomplete.js',
+        ),
       ),
     ),
     'panels' => 

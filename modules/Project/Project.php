@@ -70,6 +70,9 @@ class Project extends SugarBean
     // calculated information
     public $total_estimated_effort;
     public $total_actual_effort;
+	
+	var $importable = true;
+
 
     public $object_name = 'Project';
     public $module_dir = 'Project';
