@@ -13,7 +13,7 @@ $(document).ready(function(){
         }
     });
 
-    $('#amount_c3,#amount_c1,#amount_c2,#price_per_unit_C,#amount_paid_c').each(function(){
+    $('#amount_c3,#amount_c1,#amount_c2,#price_per_unit_c,#amount_paid_c').each(function(){
     $(this).keyup(function(){
     var value = $(this).val();
     var temp = $(this).siblings()[0];

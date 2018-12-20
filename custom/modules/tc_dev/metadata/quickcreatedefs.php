@@ -16,6 +16,10 @@ array (
         array (
           'file' => 'custom/modules/tc_dev/onsave.js',
         ),
+		 2 => 
+        array (
+          'file' => 'custom/modules/tc_dev/autocomplete.js',
+        ),
       ),
       'maxColumns' => '2',
       'widths' => 

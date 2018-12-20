@@ -10,7 +10,8 @@ $(function()
         }
     });
     var total_area = 0, unit_price = 0;
-    $("#total_amount_c").prop("readonly", true); //make total amount field read-only
+    $("#total_amount_c").prop("readonly", true);	//make total amount field read-only
+	$("#amount_due_c").prop("readonly", true);
     $('#total_area_c, #price_per_unit_c').blur(function()
     {
         total_area = $('#total_area_c').val();
