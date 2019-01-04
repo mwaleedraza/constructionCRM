@@ -8,6 +8,7 @@ array (
     array (
       'form' => 
       array (
+		'footerTpl' => 'modules/tc_sales/tpls/ledgerTpl.tpl',
         'buttons' => 
         array (
           0 => 'EDIT',

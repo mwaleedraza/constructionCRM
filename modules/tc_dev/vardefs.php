@@ -370,7 +370,7 @@ $dictionary['tc_dev'] = array(
 			'ext2'=>'contacts',
 			'module'=>'Contacts',
 			'importable' => 'required',
-			'required'=>true,
+			'required'=>false,
 		), 
 		'contacts_id_c3' =>	array(
 			'name'=>'contacts_id_c3',

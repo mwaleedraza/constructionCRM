@@ -84,15 +84,16 @@ $mod_strings = array (
   'LBL_VENDOR_C' => 'Vendor',
   
   'LBL_PROJECT_NAME_C' => 'Project Name',
-  'LBL_CONTACTS_NAME_C' => 'Seller',
+  'LBL_CONTACTS_NAME_C5' => 'Seller',
   'LBL_DUE_DATE_C'=>'Due Date',
   'LBL_CONTACTS_NAME_C1'=>'Agent',
-  'LBL_CONTACTS_NAME_C2'=>'Procurement From',
-  'LBL_CONTACTS_NAME_C3'=>'Procurement To',
-  'LBL_CONTACTS_NAME_C4'=>'Procurement Through',
+  'LBL_CONTACTS_NAME_C2'=>'Payment From',
+  'LBL_CONTACTS_NAME_C3'=>'Payment To',
+  'LBL_CONTACTS_NAME_C4'=>'Payment Through',
   'LBL_AMOUNT_C1'=>'Amount',
   'LBL_AMOUNT_C2'=>'Amount',
   'LBL_AMOUNT_C3'=>'Amount',
+  'LBL_NAME_C'=>'Name',
   
 	
 

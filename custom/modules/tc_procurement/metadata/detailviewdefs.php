@@ -8,6 +8,7 @@ array (
     array (
       'form' => 
       array (
+        'footerTpl' => 'modules/tc_procurement/tpls/ledgerTpl.tpl',
         'buttons' => 
         array (
           0 => 'EDIT',
@@ -46,6 +47,7 @@ array (
         0 => 
         array (
           0 => 'name',
+          1 => '',
         ),
         1 => 
         array (
@@ -70,6 +72,20 @@ array (
         array (
           0 => 
           array (
+            'name' => 'contacts_name_c5',
+            'label' => 'LBL_CONTACTS_NAME_C5',
+          ),
+          1 => 
+          array (
+            'name' => 'due_date_c',
+            'comment' => '',
+            'label' => 'LBL_DUE_DATE_C',
+          ),
+        ),
+        4 => 
+        array (
+          0 => 
+          array (
             'name' => 'area_unit_c',
             'comment' => 'Area Unit',
             'label' => 'LBL_AREA_UNIT_C',
@@ -81,7 +97,7 @@ array (
             'label' => 'LBL_PRICE_PER_UNIT_C',
           ),
         ),
-        4 => 
+        5 => 
         array (
           0 => 
           array (
@@ -96,7 +112,7 @@ array (
             'label' => 'LBL_AMOUNT_PAID_C',
           ),
         ),
-        5 => 
+        6 => 
         array (
           0 => 
           array (
@@ -111,30 +127,7 @@ array (
             'label' => 'LBL_AMOUNT_DUE_C',
           ),
         ),
-        6 => 
-        array (
-          0 => 
-          array (
-            'name' => 'contacts_name_c1',
-            'label' => 'LBL_CONTACTS_NAME_C1',
-          ),
-        ),
         7 => 
-        array (
-          0 => 
-          array (
-            'name' => 'contacts_name_c',
-            'studio' => 'visible',
-            'label' => 'LBL_CONTACTS_NAME_C',
-          ),
-          1 => 
-          array (
-            'name' => 'due_date_c',
-            'comment' => '',
-            'label' => 'LBL_DUE_DATE_C',
-          ),
-        ),
-        8 => 
         array (
           0 => 
           array (
@@ -148,7 +141,7 @@ array (
             'label' => 'LBL_AMOUNT_C3',
           ),
         ),
-        9 => 
+        8 => 
         array (
           0 => 
           array (
@@ -162,7 +155,7 @@ array (
             'label' => 'LBL_AMOUNT_C1',
           ),
         ),
-        10 => 
+        9 => 
         array (
           0 => 
           array (
@@ -176,7 +169,7 @@ array (
             'label' => 'LBL_AMOUNT_C2',
           ),
         ),
-        11 => 
+        10 => 
         array (
           0 => 
           array (
@@ -191,7 +184,7 @@ array (
             'label' => 'LBL_FILENAME_2',
           ),
         ),
-        12 => 
+        11 => 
         array (
           0 => 
           array (
@@ -206,7 +199,7 @@ array (
             'label' => 'LBL_FILENAME_4',
           ),
         ),
-        13 => 
+        12 => 
         array (
           0 => 
           array (

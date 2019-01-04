@@ -10,12 +10,16 @@ $(function()
             return;
         }
         else
-        {     
-            total_amount = $("input[name='installment_amount_c']").val().trim();
-            amount_paid_dev = Number(total_amount) + Number($('#amount_paid').text());
+		{
+			
+         if($("#installment_paid_c").is(':checked')){
+			total_amount = $("input[name='installment_amount_c']").val().trim();
+			amount_paid_dev = Number(total_amount) + Number($('#amount_paid').text());
             amount_due_dev = Number($('#total_amount_payble').text())-Number(total_amount);
             $("#amount_paid").text(amount_paid_dev);                
             $("#total_amount_payble").text(amount_due_dev);
+			}
+			
             orig_onclick();
 		}
     });

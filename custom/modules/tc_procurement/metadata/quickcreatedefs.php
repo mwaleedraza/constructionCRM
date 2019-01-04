@@ -16,7 +16,7 @@ array (
         array (
           'file' => 'custom/modules/tc_procurement/onsave.js',
         ),
-		2 => 
+        2 => 
         array (
           'file' => 'custom/modules/tc_procurement/autocomplete.js',
         ),
@@ -51,19 +51,6 @@ array (
       array (
         0 => 
         array (
-          0 => 'name',
-        ),
-        1 => 
-        array (
-          0 => 
-          array (
-            'name' => 'description',
-            'comment' => 'Full text of the note',
-            'label' => 'LBL_DESCRIPTION',
-          ),
-        ),
-        2 => 
-        array (
           0 => 
           array (
             'name' => 'project_name_c',
@@ -72,12 +59,22 @@ array (
           ),
           1 => 
           array (
+            'name' => 'description',
+            'comment' => 'Full text of the note',
+            'label' => 'LBL_DESCRIPTION',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
             'name' => 'total_area_c',
             'comment' => '',
             'label' => 'LBL_TOTAL_AREA_C',
           ),
+          1 => '',
         ),
-        3 => 
+        2 => 
         array (
           0 => 
           array (
@@ -92,7 +89,7 @@ array (
             'label' => 'LBL_PRICE_PER_UNIT_C',
           ),
         ),
-        4 => 
+        3 => 
         array (
           0 => 
           array (
@@ -107,7 +104,7 @@ array (
             'label' => 'LBL_AMOUNT_PAID_C',
           ),
         ),
-        5 => 
+        4 => 
         array (
           0 => 
           array (
@@ -122,7 +119,7 @@ array (
             'label' => 'LBL_AMOUNT_DUE_C',
           ),
         ),
-        6 => 
+        5 => 
         array (
           0 => 
           array (
@@ -130,13 +127,12 @@ array (
             'label' => 'LBL_CONTACTS_NAME_C1',
           ),
         ),
-        7 => 
+        6 => 
         array (
           0 => 
           array (
-            'name' => 'contacts_name_c',
-            'studio' => 'visible',
-            'label' => 'LBL_CONTACTS_NAME_C',
+            'name' => 'contacts_name_c5',
+            'label' => 'LBL_CONTACTS_NAME_C5',
           ),
           1 => 
           array (
@@ -145,7 +141,7 @@ array (
             'label' => 'LBL_DUE_DATE_C',
           ),
         ),
-        8 => 
+        7 => 
         array (
           0 => 
           array (
@@ -159,7 +155,7 @@ array (
             'label' => 'LBL_AMOUNT_C3',
           ),
         ),
-        9 => 
+        8 => 
         array (
           0 => 
           array (
@@ -173,7 +169,7 @@ array (
             'label' => 'LBL_AMOUNT_C1',
           ),
         ),
-        10 => 
+        9 => 
         array (
           0 => 
           array (
@@ -187,7 +183,7 @@ array (
             'label' => 'LBL_AMOUNT_C2',
           ),
         ),
-        11 => 
+        10 => 
         array (
           0 => 
           array (
@@ -202,7 +198,7 @@ array (
             'label' => 'LBL_FILENAME_2',
           ),
         ),
-        12 => 
+        11 => 
         array (
           0 => 
           array (
@@ -217,7 +213,7 @@ array (
             'label' => 'LBL_FILENAME_4',
           ),
         ),
-        13 => 
+        12 => 
         array (
           0 => 
           array (

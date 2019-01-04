@@ -1,5 +1,5 @@
 <?php
-// created: 2018-12-14 14:33:17
+// created: 2019-01-03 14:24:02
 $mod_strings = array (
   'LBL_TC_DEV' => 'Dev',
   'LBL_EDITVIEW_PANEL1' => 'New Panel 1',
@@ -13,6 +13,6 @@ $mod_strings = array (
   'LBL_DETAILVIEW_PANEL4' => 'Total Project Cost',
   'LBL_TOTAL_PROCUREMENT_DUE_C' => 'Total Procurement Cost',
   'LBL_TOTAL_DEV_PAID_C' => 'Total Development Paid',
-
-
+  'LBL_TC_SALARIES_SUBPANEL_C' => 'Salaries',
+  'LBL_DETAILVIEW_PANEL5' => 'Salaries',
 );

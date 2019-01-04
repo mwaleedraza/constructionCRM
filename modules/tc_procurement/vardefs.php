@@ -44,6 +44,24 @@ $dictionary['tc_procurement'] = array(
     'inline_edit' => true,
     'duplicate_merge' => true,
     'fields' => array (
+	        'name_c' => array(
+            'name' => 'name_c',
+            'vname' => 'LBL_NAME_C',
+            'type' => 'varchar',
+            'module' => 'tc_procurement',
+            'help' => '',
+            'comment' => '',
+            'default' => '',
+            'required' => false,
+            'reportable' => true,
+            'audited' => false,
+            'importable' => 'true',
+            'unified_search' => false,
+            'duplicate_merge' => 'disabled',
+            'merge_filter' => 'disabled',
+            'duplicate_merge_dom_value' => '0',
+        ),
+	
         'total_area_c' => array(
             'name' => 'total_area_c',
             'vname' => 'LBL_TOTAL_AREA_C',
@@ -463,7 +481,35 @@ $dictionary['tc_procurement'] = array(
 			'ext2'=>'contacts',
 			'module'=>'Contacts',
 			'importable' => 'required',
-			'required'=>true,
+			'required'=>false,
+		),
+		'contacts_id_c5' =>	array(
+			'name'=>'contacts_id_c5',
+			'type'=>'id',
+			/* 'group'=>'billing_address', */
+			'vname'=>'LBL_CONTACTS_ID_C5',
+			'table' => 'contacts',
+			'isnull' => 'true',
+			'module' => 'Contacts',
+			/* 'dbType' => 'id', */
+			'reportable' => false,
+			'massupdate' => false,
+			'duplicate_merge' => 'disabled',
+		),		
+	 	'contacts_name_c5'=> array(
+			'name'=>'contacts_name_c5',
+			'rname'=>'name',
+			'type'=>'relate',
+			/* 'group'=>'billing_address', */
+			'id_name'=>'contacts_id_c5',
+			'vname'=>'LBL_CONTACTS_NAME_C5',
+			/* 'link'=>'billing_accounts',
+			'table'=>'billing_accounts', */
+			'isnull'=>'true',
+			'ext2'=>'contacts',
+			'module'=>'Contacts',
+			'importable' => 'required',
+			'required'=>false,
 		),
         'project_c' =>
         array (

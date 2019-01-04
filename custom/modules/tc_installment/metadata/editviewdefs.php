@@ -6,7 +6,7 @@ array (
   array (
     'templateMeta' => 
     array (
-	 'includes' => 
+      'includes' => 
       array (
         0 => 
         array (
@@ -74,16 +74,6 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_CONTACTS_NAME_C',
           ),
-        ),
-        3 => 
-        array (
-          0 => 
-          array (
-            'name' => 'tc_procurement_name_c',
-            'studio' => 'visible',
-            'label' => 'LBL_TC_PROCUREMENT_NAME_C',
-          ),
-          1 => '',
         ),
       ),
     ),

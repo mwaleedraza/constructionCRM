@@ -4,17 +4,18 @@ $(function()
     $('input[name=tc_dev_subpanel_save_button]').removeAttr('onClick');
     $('input[name=tc_dev_subpanel_save_button]').attr('type','button');
     $('input[value="Save"]').click(function(){
-        if($("input[name='name']").val().trim().length == 0)
+       /*  if($("input[name='name']").val().trim().length == 0)
         {
             alert("Please provide name");
             $("input[name='name']").focus();
             return;
-        }
-        else
-        {
+        } */
+       /*  else
+        { */
             total_amount = $("input[name='total_amount']").val().trim();
             amount_paid = $("input[name='amount_paid']").val().trim();
             amount_due = $("input[name='total_amount_payble']").val().trim();
+			gross_rev2 = $("input[name='amount_paid']").val().trim();
             
             total_amount_project = Number(total_amount) + Number($('#total_project_cost_c').text());
             amount_paid_project = Number(amount_paid) + Number($('#total_project_paid_cost_c').text());
@@ -27,12 +28,14 @@ $(function()
             total_amount_dev = Number(total_amount) + Number($('#total_dev_cost_c').text());
             amount_paid_dev = Number(amount_paid) + Number($('#total_dev_paid_c').text());
             amount_due_dev = Number(amount_due) + Number($('#total_dev_due_c').text());
+			gross_rev_dev =Number($('#gross_revenue').text()) - Number(gross_rev2)  ;
 
             $("#total_dev_cost_c").text(total_amount_dev);
             $("#total_dev_paid_c").text(amount_paid_dev);
             $("#total_dev_due_c").text(amount_due_dev);
+			 $("#gross_revenue").text(gross_rev_dev);
             orig_onclick();
-        }
+        //}
     });
     function orig_onclick()
     {

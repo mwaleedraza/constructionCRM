@@ -39,11 +39,6 @@ array (
           'newTab' => false,
           'panelDefault' => 'expanded',
         ),
-        'LBL_PANEL_ADVANCED' => 
-        array (
-          'newTab' => false,
-          'panelDefault' => 'expanded',
-        ),
       ),
       'syncDetailEditViews' => false,
     ),
@@ -82,30 +77,12 @@ array (
         array (
           0 => 
           array (
-            'name' => 'title',
-            'comment' => 'The title of the contact',
-            'label' => 'LBL_TITLE',
-          ),
-          1 => 'department',
-        ),
-        3 => 
-        array (
-          0 => 
-          array (
             'name' => 'email1',
             'studio' => 'false',
             'label' => 'LBL_EMAIL_ADDRESS',
           ),
         ),
-        4 => 
-        array (
-          0 => 
-          array (
-            'name' => 'description',
-            'label' => 'LBL_DESCRIPTION',
-          ),
-        ),
-        5 => 
+        3 => 
         array (
           0 => 
           array (
@@ -120,7 +97,7 @@ array (
             'label' => 'LBL_FILENAME_2',
           ),
         ),
-        6 => 
+        4 => 
         array (
           0 => 
           array (
@@ -135,7 +112,7 @@ array (
             'label' => 'LBL_FILENAME_4',
           ),
         ),
-        7 => 
+        5 => 
         array (
           0 => 
           array (
@@ -144,27 +121,6 @@ array (
             'label' => 'LBL_FILENAME_5',
           ),
           1 => '',
-        ),
-      ),
-      'LBL_PANEL_ADVANCED' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            'name' => 'lead_source',
-            'comment' => 'How did the contact come about',
-            'label' => 'LBL_LEAD_SOURCE',
-          ),
-        ),
-        1 => 
-        array (
-          0 => 
-          array (
-            'name' => 'report_to_name',
-            'label' => 'LBL_REPORTS_TO',
-          ),
-          1 => 'campaign_name',
         ),
       ),
     ),

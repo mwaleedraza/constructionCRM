@@ -11,9 +11,7 @@ array (
         'buttons' => 
         array (
           0 => 'EDIT',
-         // 1 => 'DUPLICATE',
           2 => 'DELETE',
-         // 3 => 'FIND_DUPLICATES',
         ),
       ),
       'maxColumns' => '2',
@@ -77,16 +75,6 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_CONTACTS_NAME_C',
           ),
-        ),
-        3 => 
-        array (
-          0 => 
-          array (
-            'name' => 'tc_procurement_name_c',
-            'studio' => 'visible',
-            'label' => 'LBL_TC_PROCUREMENT_NAME_C',
-          ),
-          1 => '',
         ),
       ),
     ),

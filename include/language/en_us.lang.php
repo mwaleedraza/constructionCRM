@@ -171,6 +171,18 @@ $app_list_strings = array(
 		'Pay Order' => 'Pay Order',
 		),
 
+		'project_type_dom' => array(
+    
+        'Mehrab States' => 'Mehrab States',
+        'Mehrab Developers' => 'Mehrab Developers',
+        'Mehrab Engineers' => 'Mehrab Engineers',
+		
+		),
+		'sal_type_dom' => array(
+        'Development' => 'Development',
+        'Procurement' => 'Procurement',
+        'Sales' => 'Sales',
+    ),
 
     'checkbox_dom' => array(
         '' => '',

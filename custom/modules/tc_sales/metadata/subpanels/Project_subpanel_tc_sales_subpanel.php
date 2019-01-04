@@ -1,5 +1,5 @@
 <?php
-// created: 2018-11-19 15:49:42
+// created: 2018-12-26 13:26:46
 $subpanel_layout['list_fields'] = array (
   'name' => 
   array (
@@ -28,20 +28,6 @@ $subpanel_layout['list_fields'] = array (
     'widget_class' => 'SubPanelRemoveButton',
     'module' => 'tc_sales',
     'width' => '5%',
-    'default' => true,
-  ),
-  'land_area' => 
-  array (
-    'type' => 'varchar',
-    'default' => true,
-    'vname' => 'LBL_LAND_AREA',
-    'width' => '10%',
-  ),
-  'area_unit' => 
-  array (
-    'type' => 'enum',
-    'vname' => 'LBL_AREA_UNIT',
-    'width' => '10%',
     'default' => true,
   ),
   'land_price' => 

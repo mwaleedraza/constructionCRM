@@ -1,5 +1,6 @@
 $(function() 
 {
+	
     $('input[name=tc_installment_subpanel_save_button]').removeAttr('onClick');
     $('input[name=tc_installment_subpanel_save_button]').attr('type','button');
     $('input[value="Save"]').click(function(){
@@ -10,12 +11,15 @@ $(function()
             return;
         }
         else
-        {     
-            total_amount = $("input[name='installment_amount_c']").val().trim();
+			
+        {   
+		if($("#installment_paid_c").is(':checked')){
+			total_amount = $("input[name='installment_amount_c']").val().trim();
             amount_paid_proc = Number(total_amount) + Number($('#amount_paid_c').text());
             amount_due_proc = Number($('#amount_due_c').text())-Number(total_amount);
             $("#amount_paid_c").text(amount_paid_proc);                
             $("#amount_due_c").text(amount_due_proc);
+		}
             orig_onclick();
 		}
     });

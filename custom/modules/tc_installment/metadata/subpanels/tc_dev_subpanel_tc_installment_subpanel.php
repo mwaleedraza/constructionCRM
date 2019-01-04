@@ -1,16 +1,10 @@
 <?php
-// created: 2018-12-12 15:59:04
+// created: 2019-01-04 14:45:56
 $subpanel_layout['list_fields'] = array (
   'name' => 
   array (
     'vname' => 'LBL_NAME',
     'widget_class' => 'SubPanelDetailViewLink',
-    'width' => '45%',
-    'default' => true,
-  ),
-  'date_modified' => 
-  array (
-    'vname' => 'LBL_DATE_MODIFIED',
     'width' => '45%',
     'default' => true,
   ),
@@ -40,6 +34,13 @@ $subpanel_layout['list_fields'] = array (
     'widget_class' => 'SubPanelDetailViewLink',
     'target_module' => 'Contacts',
     'target_record_key' => 'contacts_id_c',
+  ),
+  'installment_paid_c' => 
+  array (
+    'type' => 'bool',
+    'default' => true,
+    'vname' => 'LBL_INSTALLMENT_PAID_C',
+    'width' => '10%',
   ),
   'edit_button' => 
   array (

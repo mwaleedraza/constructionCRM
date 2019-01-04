@@ -33,7 +33,7 @@ array (
           'panelDefault' => 'expanded',
         ),
       ),
-      'syncDetailEditViews' => true,
+      'syncDetailEditViews' => false,
       'includes' => 
       array (
         0 => 
@@ -52,13 +52,9 @@ array (
       array (
         0 => 
         array (
-          0 => 'name',
-        ),
-        1 => 
-        array (
           0 => 'description',
         ),
-        2 => 
+        1 => 
         array (
           0 => 
           array (
@@ -71,6 +67,20 @@ array (
             'name' => 'total_area_c',
             'label' => 'LBL_TOTAL_AREA_C',
             'comment' => '',
+          ),
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'contacts_name_c5',
+            'label' => 'LBL_CONTACTS_NAME_C5',
+          ),
+          1 => 
+          array (
+            'name' => 'due_date_c',
+            'comment' => '',
+            'label' => 'LBL_DUE_DATE_C',
           ),
         ),
         3 => 
@@ -122,29 +132,6 @@ array (
         array (
           0 => 
           array (
-            'name' => 'contacts_name_c1',
-            'label' => 'LBL_CONTACTS_NAME_C1',
-          ),
-        ),
-        7 => 
-        array (
-          0 => 
-          array (
-            'name' => 'contacts_name_c',
-            'studio' => 'visible',
-            'label' => 'LBL_CONTACTS_NAME_C',
-          ),
-          1 => 
-          array (
-            'name' => 'due_date_c',
-            'comment' => '',
-            'label' => 'LBL_DUE_DATE_C',
-          ),
-        ),
-        8 => 
-        array (
-          0 => 
-          array (
             'name' => 'contacts_name_c2',
             'label' => 'LBL_CONTACTS_NAME_C2',
           ),
@@ -155,7 +142,7 @@ array (
             'label' => 'LBL_AMOUNT_C3',
           ),
         ),
-        9 => 
+        7 => 
         array (
           0 => 
           array (
@@ -169,7 +156,7 @@ array (
             'label' => 'LBL_AMOUNT_C1',
           ),
         ),
-        10 => 
+        8 => 
         array (
           0 => 
           array (
@@ -183,7 +170,7 @@ array (
             'label' => 'LBL_AMOUNT_C2',
           ),
         ),
-        11 => 
+        9 => 
         array (
           0 => 
           array (
@@ -198,7 +185,7 @@ array (
             'label' => 'LBL_FILENAME_2',
           ),
         ),
-        12 => 
+        10 => 
         array (
           0 => 
           array (
@@ -213,7 +200,7 @@ array (
             'label' => 'LBL_FILENAME_4',
           ),
         ),
-        13 => 
+        11 => 
         array (
           0 => 
           array (

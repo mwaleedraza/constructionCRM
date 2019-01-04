@@ -11,7 +11,9 @@ class tc_procurementViewEdit extends ViewEdit{
 		if(isset($_REQUEST['return_module']) && $_REQUEST['return_module']=='Project'  && isset($_REQUEST['action']) && $_REQUEST['action']=='SubpanelCreates'){
 			$this->ev->focus->project_id_c=$_REQUEST['parent_id'];
 			$this->ev->focus->project_name_c=$_REQUEST['parent_name'];
+	
 		}
+		
         parent::display();
  	}
 }

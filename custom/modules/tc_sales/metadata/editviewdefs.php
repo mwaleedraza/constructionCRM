@@ -16,7 +16,7 @@ array (
         array (
           'file' => 'custom/modules/tc_sales/validation.js',
         ),
-		1 => 
+        1 => 
         array (
           'file' => 'custom/modules/tc_sales/autocomplete.js',
         ),
@@ -44,17 +44,13 @@ array (
           'panelDefault' => 'expanded',
         ),
       ),
-      'syncDetailEditViews' => true,
+      'syncDetailEditViews' => false,
     ),
     'panels' => 
     array (
       'default' => 
       array (
         0 => 
-        array (
-          0 => 'name',
-        ),
-        1 => 
         array (
           0 => 
           array (
@@ -63,7 +59,7 @@ array (
           ),
           1 => '',
         ),
-        2 => 
+        1 => 
         array (
           0 => 
           array (
@@ -78,7 +74,7 @@ array (
             'label' => 'LBL_AREA_UNIT',
           ),
         ),
-        3 => 
+        2 => 
         array (
           0 => 
           array (
@@ -93,7 +89,7 @@ array (
             'label' => 'LBL_LAND_PRICE',
           ),
         ),
-        4 => 
+        3 => 
         array (
           0 => 
           array (
@@ -108,7 +104,7 @@ array (
             'label' => 'LBL_LAND_PRICE_DUE',
           ),
         ),
-        5 => 
+        4 => 
         array (
           0 => 
           array (
@@ -122,11 +118,11 @@ array (
             'label' => 'LBL_COMMISSION_FEE',
           ),
         ),
-        6 => 
+        5 => 
         array (
           0 => 'description',
         ),
-        7 => 
+        6 => 
         array (
           0 => 
           array (
@@ -140,7 +136,7 @@ array (
             'label' => 'LBL_AMOUNT_C2',
           ),
         ),
-        8 => 
+        7 => 
         array (
           0 => 
           array (
@@ -154,7 +150,7 @@ array (
             'label' => 'LBL_AMOUNT_C1',
           ),
         ),
-        9 => 
+        8 => 
         array (
           0 => 
           array (
@@ -168,7 +164,7 @@ array (
             'label' => 'LBL_AMOUNT_C3',
           ),
         ),
-        10 => 
+        9 => 
         array (
           0 => 
           array (
@@ -183,7 +179,7 @@ array (
             'label' => 'LBL_FILENAME_2',
           ),
         ),
-        11 => 
+        10 => 
         array (
           0 => 
           array (
@@ -198,7 +194,7 @@ array (
             'label' => 'LBL_FILENAME_4',
           ),
         ),
-        12 => 
+        11 => 
         array (
           0 => 
           array (

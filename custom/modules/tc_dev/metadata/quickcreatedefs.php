@@ -16,7 +16,7 @@ array (
         array (
           'file' => 'custom/modules/tc_dev/onsave.js',
         ),
-		 2 => 
+        2 => 
         array (
           'file' => 'custom/modules/tc_dev/autocomplete.js',
         ),
@@ -43,16 +43,6 @@ array (
           'newTab' => false,
           'panelDefault' => 'expanded',
         ),
-        'LBL_EDITVIEW_PANEL5' => 
-        array (
-          'newTab' => false,
-          'panelDefault' => 'expanded',
-        ),
-        'LBL_EDITVIEW_PANEL4' => 
-        array (
-          'newTab' => false,
-          'panelDefault' => 'expanded',
-        ),
       ),
     ),
     'panels' => 
@@ -61,24 +51,64 @@ array (
       array (
         0 => 
         array (
-          0 => 'name',
-          1 => '',
-        ),
-        1 => 
-        array (
           0 => 
+          array (
+            'name' => 'project_name_c',
+            'label' => 'LBL_PROJECT_NAME_C',
+          ),
+          1 => 
           array (
             'name' => 'supplier',
             'comment' => '',
             'label' => 'LBL_SUPPLIER',
           ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'qty',
+            'comment' => '',
+            'label' => 'LBL_QTY',
+          ),
           1 => 
           array (
-            'name' => 'project_name_c',
-            'label' => 'LBL_PROJECT_NAME_C',
+            'name' => 'dev_type',
+            'comment' => 'Dev Type',
+            'label' => 'LBL_DEV_TYPE',
           ),
         ),
         2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'unit_price',
+            'comment' => '',
+            'label' => 'LBL_UNIT_PRICE',
+          ),
+          1 => 
+          array (
+            'name' => 'total_amount',
+            'comment' => '',
+            'label' => 'LBL_TOTAL_AMOUNT',
+          ),
+        ),
+        3 => 
+        array (
+          0 => 
+          array (
+            'name' => 'amount_paid',
+            'comment' => '',
+            'label' => 'LBL_AMOUNT_PAID',
+          ),
+          1 => 
+          array (
+            'name' => 'total_amount_payble',
+            'comment' => '',
+            'label' => 'LBL_TOTAL_AMOUNT_PAYBLE',
+          ),
+        ),
+        4 => 
         array (
           0 => 
           array (
@@ -86,7 +116,7 @@ array (
             'label' => 'LBL_CONTACTS_NAME_C4',
           ),
         ),
-        3 => 
+        5 => 
         array (
           0 => 
           array (
@@ -100,7 +130,7 @@ array (
             'label' => 'LBL_AMOUNT_C3',
           ),
         ),
-        4 => 
+        6 => 
         array (
           0 => 
           array (
@@ -114,7 +144,7 @@ array (
             'label' => 'LBL_AMOUNT_C1',
           ),
         ),
-        5 => 
+        7 => 
         array (
           0 => 
           array (
@@ -128,7 +158,7 @@ array (
             'label' => 'LBL_AMOUNT_C2',
           ),
         ),
-        6 => 
+        8 => 
         array (
           0 => 
           array (
@@ -143,7 +173,7 @@ array (
             'label' => 'LBL_FILENAME_2',
           ),
         ),
-        7 => 
+        9 => 
         array (
           0 => 
           array (
@@ -158,84 +188,13 @@ array (
             'label' => 'LBL_FILENAME_4',
           ),
         ),
-        8 => 
+        10 => 
         array (
           0 => 
           array (
             'name' => 'filename',
             'comment' => 'File name associated with the note (attachment)',
             'label' => 'LBL_FILENAME_5',
-          ),
-          1 => '',
-        ),
-      ),
-      'lbl_editview_panel5' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            'name' => 'dev_type',
-            'comment' => 'Dev Type',
-            'label' => 'LBL_DEV_TYPE',
-          ),
-          1 => 
-          array (
-            'name' => 'vendor',
-            'comment' => '',
-            'label' => 'LBL_VENDOR',
-          ),
-        ),
-        1 => 
-        array (
-          0 => 
-          array (
-            'name' => 'qty',
-            'comment' => '',
-            'label' => 'LBL_QTY',
-          ),
-          1 => 
-          array (
-            'name' => 'unit_price',
-            'comment' => '',
-            'label' => 'LBL_UNIT_PRICE',
-          ),
-        ),
-        2 => 
-        array (
-          0 => 
-          array (
-            'name' => 'total_price',
-            'comment' => '',
-            'label' => 'LBL_TOTAL_PRICE',
-          ),
-          1 => '',
-        ),
-      ),
-      'lbl_editview_panel4' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            'name' => 'total_amount',
-            'comment' => '',
-            'label' => 'LBL_TOTAL_AMOUNT',
-          ),
-          1 => 
-          array (
-            'name' => 'amount_paid',
-            'comment' => '',
-            'label' => 'LBL_AMOUNT_PAID',
-          ),
-        ),
-        1 => 
-        array (
-          0 => 
-          array (
-            'name' => 'total_amount_payble',
-            'comment' => '',
-            'label' => 'LBL_TOTAL_AMOUNT_PAYBLE',
           ),
           1 => '',
         ),

@@ -29,6 +29,10 @@ array (
         array (
           'file' => 'modules/Project/js/custom_project.js',
         ),
+        2 => 
+        array (
+          'file' => 'custom/modules/Project/hide.js',
+        ),
       ),
       'form' => 
       array (
@@ -69,32 +73,6 @@ array (
               ),
             ),
           ),
-       /*    2 => 
-          array (
-            'customCode' => '<input title="{$APP.LBL_DUPLICATE_BUTTON_TITLE}" accessKey="{$APP.LBL_DUPLICATE_BUTTON_KEY}" class="button" type="submit" name="Duplicate" id="duplicate_button" value="{$APP.LBL_DUPLICATE_BUTTON_LABEL}"onclick="{if $IS_TEMPLATE}this.form.return_module.value=\'Project\'; this.form.return_action.value=\'ProjectTemplatesDetailView\'; this.form.isDuplicate.value=true; this.form.action.value=\'projecttemplateseditview\'; this.form.return_id.value=\'{$id}\';{else}this.form.return_module.value=\'Project\'; this.form.return_action.value=\'DetailView\'; this.form.isDuplicate.value=true; this.form.action.value=\'EditView\'; this.form.return_id.value=\'{$id}\';{/if}""/>',
-            'sugar_html' => 
-            array (
-              'type' => 'submit',
-              'value' => '{$APP.LBL_DUPLICATE_BUTTON_LABEL}',
-              'htmlOptions' => 
-              array (
-                'title' => '{$APP.LBL_DUPLICATE_BUTTON_TITLE}',
-                'accessKey' => '{$APP.LBL_DUPLICATE_BUTTON_KEY}',
-                'class' => 'button',
-                'name' => 'Duplicate',
-                'id' => 'duplicate_button',
-                'onclick' => '{if $IS_TEMPLATE}this.form.return_module.value=\'Project\'; this.form.return_action.value=\'ProjectTemplatesDetailView\'; this.form.isDuplicate.value=true; this.form.action.value=\'projecttemplateseditview\'; this.form.return_id.value=\'{$id}\';{else}this.form.return_module.value=\'Project\'; this.form.return_action.value=\'DetailView\'; this.form.isDuplicate.value=true; this.form.action.value=\'EditView\'; this.form.return_id.value=\'{$id}\';{/if}',
-              ),
-            ),
-          ), */
-      /*     3 => 
-          array (
-            'customCode' => '<input title="{$APP.LBL_VIEW_GANTT_TITLE}" class="button" type="button" name="view_gantt" id="view_gantt" value="{$APP.LBL_GANTT_BUTTON_LABEL}" onclick="javascript:window.location.href=\'index.php?module=Project&action=view_GanttChart&record={$id}\'"/>',
-          ), */
-         /*  4 => 
-          array (
-            'customCode' => '<input title="{$APP.LBL_VIEW_DETAIL}" class="button" type="button" name="view_detail" id="view_detail" value="{$APP.LBL_DETAIL_BUTTON_LABEL}" onclick="javascript:window.location.href=\'index.php?module=Project&action=DetailView&record={$id}\'"/>',
-          ), */
         ),
       ),
       'useTabs' => true,
@@ -120,6 +98,11 @@ array (
           'newTab' => true,
           'panelDefault' => 'expanded',
         ),
+        'LBL_DETAILVIEW_PANEL5' => 
+        array (
+          'newTab' => true,
+          'panelDefault' => 'expanded',
+        ),
         'LBL_DETAILVIEW_PANEL4' => 
         array (
           'newTab' => true,
@@ -141,12 +124,22 @@ array (
         array (
           0 => 
           array (
+            'name' => 'project_type',
+            'comment' => 'project type',
+            'label' => 'LBL_PROJECT_TYPE',
+          ),
+          1 => '',
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
             'name' => 'estimated_start_date',
             'label' => 'LBL_DATE_START',
           ),
           1 => 'priority',
         ),
-        2 => 
+        3 => 
         array (
           0 => 
           array (
@@ -154,7 +147,7 @@ array (
             'label' => 'LBL_DATE_END',
           ),
         ),
-        3 => 
+        4 => 
         array (
           0 => 
           array (
@@ -242,6 +235,31 @@ array (
           1 => '',
         ),
       ),
+      'lbl_detailview_panel5' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'total_salaries_amount_c',
+            'label' => 'LBL_TOTAL_SALARIES_AMOUNT_C',
+          ),
+          1 => 
+          array (
+            'name' => 'total_salaries_amount_paid_c',
+            'label' => 'LBL_TOTAL_SALARIES_AMOUNT_PAID_C',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'total_salaries_amount_due_c',
+            'label' => 'LBL_TOTAL_SALARIES_AMOUNT_DUE_C',
+          ),
+          1 => '',
+        ),
+      ),
       'lbl_detailview_panel4' => 
       array (
         0 => 
@@ -264,7 +282,11 @@ array (
             'name' => 'total_project_due_cost_c',
             'label' => 'LBL_TOTAL_PROJECT_DUE_COST_C',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'gross_revenue',
+            'label' => 'LBL_GROSS_REVENUE',
+          ),
         ),
       ),
     ),
