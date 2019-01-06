@@ -1,5 +1,10 @@
 <link href="custom/include/thirparty/CSS/ForCRM.css" rel="stylesheet" />
 <link href="custom/include/thirparty/CSS/style.css" rel="stylesheet" />
+<div class="col-sm-12">
+    <div class="col-sm-2"></div>
+    <div class="col-sm-9"><h2 style="color:coral;">Complete history of Procurement for Seller <span style="color:purple;">{$NAME}</span></h2></div>
+    <div class="col-sm-1"></div>
+</div>
 <div class="row coreui">
     <div class="col-sm-12">
         <div class="card" style="width:100%">
