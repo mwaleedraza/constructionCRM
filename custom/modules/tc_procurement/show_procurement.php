@@ -9,7 +9,7 @@ class show_procurement{
 		// $GLOBALS['log']->fatal("Before Save logic hook :".$bean->name);
 		if (!isset($bean->fetched_row['id'])) {
 		  $procBean = BeanFactory::getBean('tc_procurement');
-		  $procList = $procBean->get_full_list("", "tc_procurement.project_id_c='$bean->project_id_c' && tc_procurement.contacts_name_c3='$bean->contacts_name_c3'");
+		  $procList = $procBean->get_full_list("", "tc_procurement.project_id_c='$bean->project_id_c' && tc_procurement.contacts_name_c5='$bean->contacts_name_c5'");
 	      if(empty($procList)){
 			$bean->is_parent=true;
 			$id = create_guid();

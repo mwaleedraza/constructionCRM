@@ -9,7 +9,7 @@ class show_dev{
 		// $GLOBALS['log']->fatal("Before Save logic hook :".$bean->name);
 		if (!isset($bean->fetched_row['id'])) {
 		  $devBean = BeanFactory::getBean('tc_dev');
-		  $devList = $devBean->get_full_list("", "tc_dev.project_id_c='$bean->project_id_c' && tc_dev.contacts_name_c3='$bean->contacts_name_c3'");
+		  $devList = $devBean->get_full_list("", "tc_dev.project_id_c='$bean->project_id_c' && tc_dev.contacts_name_c4='$bean->contacts_name_c4'");
 	      if(empty($devList)){
 			$bean->is_parent=true;
 			$id = create_guid();

@@ -509,7 +509,8 @@ $dictionary['tc_procurement'] = array(
 			'ext2'=>'contacts',
 			'module'=>'Contacts',
 			'importable' => 'required',
-			'required'=>false,
+			'required'=>true,
+			
 		),
         'project_c' =>
         array (
