@@ -38,46 +38,30 @@
  * display the words "Powered by SugarCRM" and "Supercharged by SuiteCRM".
  */
 *}
-{literal}
-    <style>
-        .p_login_middle:before{
-            content: '';
-            position: absolute;
-            top: 0;
-            right: 0;
-            left: 0;
-            bottom: 0;
-            background: rgba(255,255,255);
-        }
-        #loginform {
-            color: #ffffff;
-            position: relative;
-        }
-        </style>
-{/literal}
 <script type='text/javascript'>
     var LBL_LOGIN_SUBMIT = '{sugar_translate module="Users" label="LBL_LOGIN_SUBMIT"}';
     var LBL_REQUEST_SUBMIT = '{sugar_translate module="Users" label="LBL_REQUEST_SUBMIT"}';
     var LBL_SHOWOPTIONS = '{sugar_translate module="Users" label="LBL_SHOWOPTIONS"}';
     var LBL_HIDEOPTIONS = '{sugar_translate module="Users" label="LBL_HIDEOPTIONS"}';
 </script>
-
 <!-- Start login container -->
 
-<div class="p_login" style="background-color: #fffff ;">
+<div class="p_login">
 
 	<div class="p_login_top">
-		<a title="Alaserv" href="https://www.alaserv.com/" style='width:100%;background-image: none, url("custom/themes/SuiteP/images/p_login_logo.png");'>Alaserv</a>
+		
+		<a title="SuiteCRM" href="http://www.suitecrm.com">SuiteCRM</a>
+		
 	</div>
     
-    <div class="p_login_middle" style="height:90%;background: url('custom/themes/SuiteP/images/bg.png');opacity: 0.8;top: 0;left: 0;bottom: 0;right: 0;z-index: -1;background-repeat: no-repeat;background-attachment: fixed;background-position: center;background-size: 80%;">
+    <div class="p_login_middle">
         {if $LOGIN_ERROR_MESSAGE}
             <p align='center' class='error'>{$LOGIN_ERROR_MESSAGE}</p>
         {/if}
 
 
-    <div id="loginform" style="margin:12% auto 0 auto;">
-
+    <div id="loginform">
+        
         <form class="form-signin" role="form" action="index.php" method="post" name="DetailView" id="form"
               onsubmit="return document.getElementById('cant_login').value == ''" autocomplete="off">
             <div class="companylogo">{$LOGIN_IMAGE}</div>
@@ -111,13 +95,13 @@
             {/if}
             <br>
             <div class="input-group">
-                <input type="text" class="form-control"
+                <input style="color: black;" type="text" class="form-control"
                        placeholder="{sugar_translate module="Users" label="LBL_USER_NAME"}" required autofocus
                        tabindex="1" id="user_name" name="user_name" value='{$LOGIN_USER_NAME}' autocomplete="off">
             </div>
             <br>
             <div class="input-group">
-                <input type="password" class="form-control"
+                <input  style="color: black;" type="password" class="form-control"
                        placeholder="{sugar_translate module="Users" label="LBL_PASSWORD"}" tabindex="2"
                        id="username_password" name="username_password" value='{$LOGIN_PASSWORD}' autocomplete="off">
             </div>
@@ -130,7 +114,7 @@
                 <a href='javascript:void(0)'>{sugar_translate module="Users" label="LBL_LOGIN_FORGOT_PASSWORD"}</a>
             </div>
         </form>
-
+        
         <form class="form-signin passform" role="form" action="index.php" method="post" name="DetailView" id="form" name="fp_form" id="fp_form" autocomplete="off">
             <div id="forgot_password_dialog" style="display:none">
                 <input type="hidden" name="entryPoint" value="GeneratePassword">
@@ -157,15 +141,15 @@
                        value="{sugar_translate module="Users" label="LBL_LOGIN_SUBMIT"}" autocomplete="off">
             </div>
         </form>
-
+        
     </div>
     </div>
     
-    <div  style="height:10%;"class="p_login_bottom">
+    <div class="p_login_bottom">
 
     		<a id="admin_options">&copy; Supercharged by SuiteCRM</a>
             <a id="powered_by">&copy; Powered By SugarCRM</a>
-
+    	
 	</div>
     
 </div>
