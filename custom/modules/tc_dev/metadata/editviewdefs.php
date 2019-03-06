@@ -67,21 +67,6 @@ array (
         array (
           0 => 
           array (
-            'name' => 'qty',
-            'comment' => '',
-            'label' => 'LBL_QTY',
-          ),
-          1 => 
-          array (
-            'name' => 'unit_price',
-            'comment' => '',
-            'label' => 'LBL_UNIT_PRICE',
-          ),
-        ),
-        2 => 
-        array (
-          0 => 
-          array (
             'name' => 'total_amount',
             'comment' => '',
             'label' => 'LBL_TOTAL_AMOUNT',
@@ -93,7 +78,7 @@ array (
             'label' => 'LBL_AMOUNT_PAID',
           ),
         ),
-        3 => 
+        2 => 
         array (
           0 => 
           array (
@@ -103,7 +88,7 @@ array (
           ),
           1 => '',
         ),
-        4 => 
+        3 => 
         array (
           0 => 
           array (
@@ -117,7 +102,7 @@ array (
             'label' => 'LBL_AMOUNT_C3',
           ),
         ),
-        5 => 
+        4 => 
         array (
           0 => 
           array (
@@ -131,7 +116,7 @@ array (
             'label' => 'LBL_AMOUNT_C1',
           ),
         ),
-        6 => 
+        5 => 
         array (
           0 => 
           array (
@@ -145,7 +130,7 @@ array (
             'label' => 'LBL_AMOUNT_C2',
           ),
         ),
-        7 => 
+        6 => 
         array (
           0 => 
           array (
@@ -160,7 +145,7 @@ array (
             'label' => 'LBL_FILENAME_2',
           ),
         ),
-        8 => 
+        7 => 
         array (
           0 => 
           array (
@@ -175,7 +160,7 @@ array (
             'label' => 'LBL_FILENAME_4',
           ),
         ),
-        9 => 
+        8 => 
         array (
           0 => 
           array (

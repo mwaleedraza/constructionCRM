@@ -102,6 +102,16 @@ array (
         array (
           0 => 
           array (
+            'name' => 'commissionp_fee_c',
+            'comment' => '',
+            'label' => 'LBL_COMMISSIONP_FEE_C',
+          ),
+          1 => '',
+        ),
+        5 => 
+        array (
+          0 => 
+          array (
             'name' => 'total_amount_c',
             'comment' => '',
             'label' => 'LBL_TOTAL_AMOUNT_C',
@@ -113,7 +123,7 @@ array (
             'label' => 'LBL_AMOUNT_PAID_C',
           ),
         ),
-        5 => 
+        6 => 
         array (
           0 => 
           array (
@@ -128,7 +138,7 @@ array (
             'label' => 'LBL_AMOUNT_DUE_C',
           ),
         ),
-        6 => 
+        7 => 
         array (
           0 => 
           array (
@@ -142,7 +152,7 @@ array (
             'label' => 'LBL_AMOUNT_C3',
           ),
         ),
-        7 => 
+        8 => 
         array (
           0 => 
           array (
@@ -156,7 +166,7 @@ array (
             'label' => 'LBL_AMOUNT_C1',
           ),
         ),
-        8 => 
+        9 => 
         array (
           0 => 
           array (
@@ -170,7 +180,7 @@ array (
             'label' => 'LBL_AMOUNT_C2',
           ),
         ),
-        9 => 
+        10 => 
         array (
           0 => 
           array (
@@ -185,7 +195,7 @@ array (
             'label' => 'LBL_FILENAME_2',
           ),
         ),
-        10 => 
+        11 => 
         array (
           0 => 
           array (
@@ -200,7 +210,7 @@ array (
             'label' => 'LBL_FILENAME_4',
           ),
         ),
-        11 => 
+        12 => 
         array (
           0 => 
           array (

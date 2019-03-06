@@ -72,7 +72,12 @@ array (
             'comment' => '',
             'label' => 'LBL_TOTAL_AREA_C',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'commissionp_fee_c',
+            'comment' => '',
+            'label' => 'LBL_COMMISSIONP_FEE_C',
+          ),
         ),
         2 => 
         array (

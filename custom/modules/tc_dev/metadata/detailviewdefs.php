@@ -8,7 +8,7 @@ array (
     array (
       'form' => 
       array (
-		'footerTpl' => 'modules/tc_dev/tpls/ledgerTpl.tpl',
+        'footerTpl' => 'modules/tc_dev/tpls/ledgerTpl.tpl',
         'buttons' => 
         array (
           0 => 'EDIT',
@@ -66,21 +66,6 @@ array (
         array (
           0 => 
           array (
-            'name' => 'qty',
-            'comment' => '',
-            'label' => 'LBL_QTY',
-          ),
-          1 => 
-          array (
-            'name' => 'unit_price',
-            'comment' => '',
-            'label' => 'LBL_UNIT_PRICE',
-          ),
-        ),
-        3 => 
-        array (
-          0 => 
-          array (
             'name' => 'total_amount',
             'comment' => '',
             'label' => 'LBL_TOTAL_AMOUNT',
@@ -92,7 +77,7 @@ array (
             'label' => 'LBL_AMOUNT_PAID',
           ),
         ),
-        4 => 
+        3 => 
         array (
           0 => 
           array (
@@ -102,7 +87,7 @@ array (
           ),
           1 => '',
         ),
-        5 => 
+        4 => 
         array (
           0 => 
           array (
@@ -116,7 +101,7 @@ array (
             'label' => 'LBL_AMOUNT_C3',
           ),
         ),
-        6 => 
+        5 => 
         array (
           0 => 
           array (
@@ -130,7 +115,7 @@ array (
             'label' => 'LBL_AMOUNT_C1',
           ),
         ),
-        7 => 
+        6 => 
         array (
           0 => 
           array (
@@ -144,7 +129,7 @@ array (
             'label' => 'LBL_AMOUNT_C2',
           ),
         ),
-        8 => 
+        7 => 
         array (
           0 => 
           array (
@@ -159,7 +144,7 @@ array (
             'label' => 'LBL_FILENAME_2',
           ),
         ),
-        9 => 
+        8 => 
         array (
           0 => 
           array (
@@ -174,7 +159,7 @@ array (
             'label' => 'LBL_FILENAME_4',
           ),
         ),
-        10 => 
+        9 => 
         array (
           0 => 
           array (

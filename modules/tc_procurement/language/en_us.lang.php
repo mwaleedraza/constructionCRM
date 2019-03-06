@@ -94,6 +94,7 @@ $mod_strings = array (
   'LBL_AMOUNT_C2'=>'Amount',
   'LBL_AMOUNT_C3'=>'Amount',
   'LBL_NAME_C'=>'Name',
+  'LBL_COMMISSIONP_FEE_C'=>'Commission Fee',
   
 	
 

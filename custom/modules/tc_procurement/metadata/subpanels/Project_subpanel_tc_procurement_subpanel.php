@@ -1,5 +1,5 @@
 <?php
-// created: 2019-01-04 14:50:00
+// created: 2019-03-06 15:01:41
 $subpanel_layout['list_fields'] = array (
   'name' => 
   array (
@@ -43,6 +43,13 @@ $subpanel_layout['list_fields'] = array (
     'type' => 'varchar',
     'default' => true,
     'vname' => 'LBL_TOTAL_AREA_C',
+    'width' => '10%',
+  ),
+  'commissionp_fee_c' => 
+  array (
+    'type' => 'varchar',
+    'default' => true,
+    'vname' => 'LBL_COMMISSIONP_FEE_C',
     'width' => '10%',
   ),
   'total_amount_c' => 

@@ -67,12 +67,6 @@ array (
         array (
           0 => 
           array (
-            'name' => 'qty',
-            'comment' => '',
-            'label' => 'LBL_QTY',
-          ),
-          1 => 
-          array (
             'name' => 'dev_type',
             'comment' => 'Dev Type',
             'label' => 'LBL_DEV_TYPE',
@@ -81,12 +75,6 @@ array (
         2 => 
         array (
           0 => 
-          array (
-            'name' => 'unit_price',
-            'comment' => '',
-            'label' => 'LBL_UNIT_PRICE',
-          ),
-          1 => 
           array (
             'name' => 'total_amount',
             'comment' => '',
