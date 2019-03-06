@@ -19,6 +19,7 @@
                         <th>Total Area</th>
                         <th>Price per unit</th>
                         <th>Area unit</th>
+						<th>Commission Fee</th>
                         <th>Total amount</th>
                         <th>Amount paid</th>
                         <th>Amount due</th>
@@ -32,6 +33,7 @@
                             <td>{$line_item.total_area_c}</td>
                             <td>{$line_item.price_per_unit_c}</td>
                             <td>{$line_item.area_unit_c}</td>
+							<td>{$line_item.commissionp_fee_c}</td>
                             <td>{$line_item.total_amount_c}</td>
                             <td>{$line_item.amount_paid_c}</td>
                             <td>{$line_item.amount_due_c}</td>

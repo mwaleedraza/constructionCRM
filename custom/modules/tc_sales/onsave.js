@@ -15,6 +15,8 @@ $(function()
             total_sales = $("input[name='land_price']").val().trim();
             sales_received = $("input[name='land_price_received']").val().trim();
             sales_due = $("input[name='land_price_due']").val().trim();
+			comm_fee = $("input[name='commission_fee']").val().trim();
+			
 			gross_rev = $("input[name='land_price_received']").val().trim();
             
 
@@ -24,11 +26,13 @@ $(function()
             total_sale_sales = Number(total_sales) + Number($('#total_sales_c').text());
             sale_received_sales = Number(sales_received) + Number($('#total_sales_amount_received_c').text());
             sale_due_sales = Number(sales_due) + Number($('#total_sales_amount_due_c').text());
+			  comm_fee_fee = Number(comm_fee) + Number($('#total_project_cost_c').text());
 			gross_rev_sale = Number(gross_rev) + Number($('#gross_revenue').text());
 
             $("#total_sales_c").text(total_sale_sales);
             $("#total_sales_amount_received_c").text(sale_received_sales);
             $("#total_sales_amount_due_c").text(sale_due_sales);
+			      $("#total_project_cost_c").text(comm_fee_fee);
 			 $("#gross_revenue").text(gross_rev_sale);
 			
             orig_onclick();

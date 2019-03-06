@@ -10,6 +10,8 @@ class update_project_values_sale{
 			$projectBean->total_sales_c = $projectBean->total_sales_c + $bean->land_price;
 			$projectBean->total_sales_amount_received_c = $projectBean->total_sales_amount_received_c + $bean->land_price_received;
 			$projectBean->total_sales_amount_due_c = $projectBean->total_sales_amount_due_c + $bean->land_price_due;
+			$projectBean->total_project_cost_c = $projectBean->total_project_cost_c + $bean->commission_fee;
+			
 			
 			$projectBean->gross_revenue = $projectBean->gross_revenue + $bean->land_price_received;
 
@@ -21,6 +23,8 @@ class update_project_values_sale{
 		$projectBean->total_sales_c = $projectBean->total_sales_c + $bean->land_price- $bean->fetched_row['land_price'];
 		$projectBean->total_sales_amount_received_c = $projectBean->total_sales_amount_received_c + $bean->land_price_received - $bean->fetched_row['land_price_received'];
 		$projectBean->total_sales_amount_due_c = $projectBean->total_sales_amount_due_c + $bean->land_price_due - $bean->fetched_row['land_price_due'];
+		
+			$projectBean->total_project_cost_c = $projectBean->total_project_cost_c + $bean->commission_fee - $bean->fetched_row['commission_fee'];
 		
 		$projectBean->gross_revenue = $projectBean->gross_revenue + $bean->land_price_received- $bean->fetched_row['land_price_received'];
 		
@@ -37,6 +41,8 @@ class update_project_values_sale{
 		$projectBean->total_sales_c = $projectBean->total_sales_c - $bean->land_price;
 		$projectBean->total_sales_amount_received_c = $projectBean->total_sales_amount_received_c - $bean->land_price_received;
 		$projectBean->total_sales_amount_due_c = $projectBean->total_sales_amount_due_c - $bean->land_price_due;
+		
+		$projectBean->total_project_cost_c = $projectBean->total_project_cost_c - $bean->commission_fee;
 		
 		//$projectBean->gross_revenue = $projectBean->gross_revenue + $projectBean->total_sales_c;
 
